@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'TTCommons Regular';
+    src: url(../TT\ Commons\ Regular.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTCommons ExtraLight';
+    src: url(../TT\ Commons\ ExtraLight.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo {
+    position: absolute;
+    width: 29.25rem;
+    height: 7.5rem;
+    margin-right: 87rem;
+    margin-top: 3.5rem;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin-left: 74rem;
+}
+
+.navbar li {
+    margin-left: 3rem;
+}
+
+.videoaula_bt {
+    font-size: 1rem;
+    padding-inline: 0.7rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.jogo_bt {
+    font-size: 1rem;
+    padding-inline: 2.2rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.contato_bt {
+    font-size: 1rem;
+    padding-inline: 1.3rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.sobre_bt {
+    font-size: 1rem;
+    padding-inline: 1.9rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.titulo_contato {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 5rem;
+    padding-top: 2rem;
+    color: var(--blue);
+}
+
+.texto_contato {
+    font-weight: 300;
+    font-size: 1.525rem;
+    font-family: 'TTCommons ExtraLight';
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.luis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.luis div {
+    display: inline-block;
+}
+
+.nome_luis {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 100;
+    font-size: 1.625rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.email_luis {
+    font-family: 'TTCommons ExtraLIght', sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.email_luis img {
+    margin-right: 1rem;
+}
+
+.insta_luis {
+    font-family: 'TTCommons ExtraLIght', sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 1.4rem;
+}
+
+.insta_luis img {
+    margin-right: 1rem;
+}
+
+.info_luis_2 {
+    padding-top: 2.6rem;
+}
+
+.telefone_luis {
+    font-family: 'TTCommons ExtraLIght', sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.telefone_luis img {
+    margin-right: 1rem;
+}
+
+.twitter_luis {
+    font-family: 'TTCommons ExtraLIght', sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+}
+
+.twitter_luis img {
+    margin-right: 1rem;
+}
+
+.nome_nicolly {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 100;
+    font-size: 1.625rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.nicolly div {
+    display: inline-block;
+}
+
+.email_nicolly {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.email_nicolly img {
+    margin-right: 1rem;
+}
+
+.insta_nicolly {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.insta_nicolly img {
+    margin-right: 1rem;
+}
+
+.telefone_nicolly{
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.telefone_nicolly img {
+    margin-right: 1rem;
+}
+
+.twitter_nicolly {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+}
+
+.twitter_nicolly img {
+    margin-right: 1rem;
+}
+
+.info_nicolly_2 {
+    padding-top: 2.6rem;
+}
+
+.nicolly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 3.2rem;
+}
+
+
+.nome_andrey {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 100;
+    font-size: 1.625rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.andrey div {
+    display: inline-block;
+}
+
+.email_andrey {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.email_andrey img {
+    margin-right: 1rem;
+}
+
+.insta_andrey {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.insta_andrey img {
+    margin-right: 1rem;
+}
+
+.telefone_andrey{
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.telefone_andrey img {
+    margin-right: 1rem;
+}
+
+.twitter_andrey {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+}
+
+.twitter_andrey img {
+    margin-right: 1rem;
+}
+
+.info_andrey_2 {
+    padding-top: 2.6rem;
+}
+
+.andrey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 1.8rem;
+}
+
+
+.nome_joao {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 100;
+    font-size: 1.625rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.joao div {
+    display: inline-block;
+}
+
+.email_joao {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.email_joao img {
+    margin-right: 1rem;
+}
+
+.insta_joao {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.insta_joao img {
+    margin-right: 1rem;
+}
+
+.telefone_joao{
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.telefone_joao img {
+    margin-right: 1rem;
+}
+
+.twitter_joao {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+}
+
+.twitter_joao img {
+    margin-right: 1rem;
+}
+
+.info_joao_2 {
+    padding-top: 2.6rem;
+}
+
+.joao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 5rem;
+}
+
+
+.nome_nicolas {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 100;
+    font-size: 1.625rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.nicolas div {
+    display: inline-block;
+}
+
+.email_nicolas {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.email_nicolas img {
+    margin-right: 1rem;
+}
+
+.insta_nicolas {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.insta_nicolas img {
+    margin-right: 1rem;
+}
+
+.telefone_nicolas{
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.telefone_nicolas img {
+    margin-right: 1rem;
+}
+
+.twitter_nicolas {
+    font-family: 'TTCommons ExtraLight',sans-serif;
+    font-size: 1.3475rem;
+    color: var(--gray);
+    padding-left: 2rem;
+}
+
+.twitter_nicolas img {
+    margin-right: 1rem;
+}
+
+.info_nicolas_2 {
+    padding-top: 2.6rem;
+}
+
+.nicolas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 15.3rem;
+    padding-bottom: 4rem;
+}
+
+.linha_contato  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}

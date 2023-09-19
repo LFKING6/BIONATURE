@@ -1,0 +1,17 @@
+.logo_intro img {
+    display: flex;
+    margin-inline: 45rem;
+    height: 10.5625rem;
+    padding-top: 4.5rem;
+}
+
+.linha_branca img {
+    margin: auto;
+    display: block;
+    padding-top: 3rem;
+}
+
+.saibamais_intro {
+    text-align: center;
+    padding-top: 6rem;
+}

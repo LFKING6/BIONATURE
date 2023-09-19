@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'TTCommons Regular';
+    src: url(../TT\ Commons\ Regular.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTCommons ExtraLight';
+    src: url(../TT\ Commons\ ExtraLight.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo {
+    position: absolute;
+    width: 29.25rem;
+    height: 7.5rem;
+    margin-right: 87rem;
+    margin-top: 3.5rem;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin-left: 74rem;
+}
+
+.navbar li {
+    margin-left: 3rem;
+}
+
+.videoaula_bt {
+    font-size: 1rem;
+    padding-inline: 0.7rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.jogo_bt {
+    font-size: 1rem;
+    padding-inline: 2.2rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.contato_bt {
+    font-size: 1rem;
+    padding-inline: 1.3rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.sobre_bt {
+    font-size: 1rem;
+    padding-inline: 1.9rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.voltar {
+    display: flex;
+    align-items: center;
+    padding-left: 1.6rem;
+    padding-top: 2.1rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.voltar img {
+    width: 1.9rem;
+}
+
+.voltar h1 {
+    padding-left: 0.4rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.titulo_facil {
+    text-align: center;
+}
+
+.titulo_facil p {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.jogo {
+    width: 860px;
+    background: var(--green);
+    border-radius: 10px;
+    margin-inline: 32rem;
+    margin-top: 6rem;
+}
+
+.titulo_jogo {
+    font-size: 2.8rem;
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--gray);
+    color: var(--gray);
+}
+
+.digitar_input {
+    z-index: -999;
+    position: absolute;
+    opacity: 0;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1.6rem;
+}
+
+.inputs input {
+    height: 70px;
+    width: 74px;
+    margin: 5px;
+    color: var(--gray);
+    background: none;
+    font-size: 3rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--gray);
+    background-color: var(--green);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.jogo_info p {
+    margin-bottom: 0.4rem;
+    margin-left: 5.1rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--gray);
+    font-size: 1.5rem;
+}
+
+.resetar {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    width: 80%;
+    font-size: 1.4rem;
+    padding-block: 0.8rem;
+    margin-inline: 5.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border-style: none;
+    color: var(--green);
+    background-color: var(--gray);
+}

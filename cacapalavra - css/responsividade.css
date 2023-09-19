@@ -1,0 +1,22 @@
+@media (max-width: 1400px) {
+    .logo {
+        position: absolute;
+        width: 29.25rem;
+        height: 7.5rem;
+        margin-right: 52rem;
+    }
+    
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-left: 38rem;
+    }
+    
+    .titulo_jogo h1 {
+        font-size: 4.8rem;
+    }
+    
+    .instrucao_jogo p {
+        font-size: 1.825rem;
+    }
+}

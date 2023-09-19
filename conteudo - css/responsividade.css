@@ -1,0 +1,575 @@
+@media (max-width: 1400px) {
+    .logo {
+        position: absolute;
+        width: 29.25rem;
+        height: 7.5rem;
+        margin-right: 52rem;
+    }
+    
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-left: 38rem;
+    }
+
+    .folha_impacto {
+        width: 12rem;
+        margin-left: 1.5rem;
+        padding-top: 2rem;
+    }
+    
+    .titulo_impacto {
+        margin-left: 2.8rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        top: 9.5rem;
+    }
+    
+    .titulo_impacto h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+        margin-left: 2.2rem;
+    }
+    
+    .titulo_impacto strong {
+        color: var(--green);
+    }
+    
+    .texto_impacto_1 {
+        position: absolute;
+        margin-left: 7.2rem;
+        padding-bottom: 5rem;
+    }
+    
+    .texto_impacto_2 {
+        position: absolute;
+        padding-top: 12rem;
+        margin-left: 7.2rem;
+    }
+    
+    .impacto_ambiental p {
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 5rem;
+    }
+    
+    .foto_impacto {
+        width: 34.75rem;
+        height: 30.625rem;
+        position: absolute;
+        left: 48.5rem;
+        top: 6.9125rem;
+        border-radius: 1.25rem;
+    }
+    
+    .saiba_mais_impacto {
+        position: absolute;
+        margin-top: 24rem;
+        margin-left: 60rem;
+        border-radius: 2rem;
+        border-style: none;
+        padding-inline: 1.8rem;
+        padding-block: 0.9rem;
+        font-size: 1.20625rem;  
+    }
+    
+    .foto_tipos {
+        width: 34.75rem;
+        height: 30.625rem;
+        left: 5rem;
+        top: 50.3125rem;
+    }
+    
+    .folha_tipos {
+        width: 12rem;
+        margin-left: 40rem;
+        padding-top: 30rem;
+    }
+    
+    .titulo_tipos {
+        margin-left: 44rem;
+        top: 51.7rem;
+    }
+    
+    .titulo_tipos h1 {
+        font-weight: 300;
+    }
+    
+    .titulo_tipos strong {
+        color: var(--green);
+    }
+    
+    .texto_tipos_1 {
+        position: absolute;
+    }
+    
+    .texto_tipos_2 {
+        position: absolute;
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 44.6rem;
+        padding-top: 8rem;
+    }
+    
+    .tipos_impacto p {
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 44.6rem;
+    }
+    
+    .saiba_mais_tipos {
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: 18rem;
+        border-radius: 2rem;
+        border-style: none;
+        padding-inline: 1.8rem;
+        padding-block: 0.9rem;
+        font-size: 1.20625rem;
+    }
+    
+    .folha_causas {
+        width: 12rem;
+        margin-left: 2rem;
+        padding-top: 30rem;
+    }
+    
+    .titulo_causas {
+        margin-left: 6rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        top: 93.9rem;
+    }
+    
+    .titulo_causas h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+    }
+    
+    .titulo_causas strong {
+        color: var(--green);
+    }
+    
+    .texto_causas_1 {
+        position: absolute;
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 6.4rem;
+    }
+    
+    .texto_causas_2 {
+        position: absolute;
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 6.4rem;
+        padding-top: 10rem;
+    }
+    
+    .texto_causas_3 {
+        position: absolute;
+        font-size: 1.625rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 6.4rem;
+        padding-top: 16rem;
+    }
+    
+    .texto_causas_4 {
+        position: absolute;
+        font-size: 1.625rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 6.4rem;
+        padding-top: 24rem;
+    }
+    
+    .foto_causas {
+        width: 34.75rem;
+        height: 30.625rem;
+        position: absolute;
+        left: 48.5rem;
+        top: 96.3125rem;
+        border-radius: 1.25rem;
+    }
+    
+    .saiba_mais_causas {
+        position: absolute;
+        margin-top: 26.5rem;
+        margin-left: 60rem;
+        border-radius: 2rem;
+        border-style: none;
+        padding-inline: 1.8rem;
+        padding-block: 0.9rem;
+        font-size: 1.20625rem;
+    }
+    
+    .foto_combater {
+        width: 34.75rem;
+        height: 30.625rem;
+        left: 5.8rem;
+        position: absolute;
+        top: 139.3125rem;
+        border-radius: 1.25rem;    
+    }
+    
+    .folha_combater {
+        width: 12rem;
+        margin-left: 41rem;
+        padding-top: 33.9rem;
+    }
+    
+    .titulo_combater {
+        margin-left: 44.6rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        top: 140.2rem;
+    }
+    
+    .titulo_combater h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+    }
+    
+    .titulo_combater strong {
+        color: var(--green);
+    }
+    
+    .texto_combater_1 {
+        position: absolute;
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 44.8rem;   
+    }
+    
+    .texto_combater_2 {
+        position: absolute;
+        font-size: 1.525rem;
+        font-family: 'TTComons Regular', sans-serif;
+        margin-left: 44.8rem;
+        padding-top: 10rem;
+    }
+    
+    .saiba_mais_combater {
+        position: absolute;
+        margin-top: 24.5rem;
+        margin-left: 18rem;
+        border-radius: 2rem;
+        border-style: none;
+        padding-inline: 1.8rem;
+        padding-block: 0.9rem;
+        font-size: 1.20625rem;
+    }
+    
+    .folha_impacto_saibamais {
+        position: absolute;
+        width: 240.16px;
+        height: 240.16px;
+        left: 30.25rem;
+        top: 181.1875rem; 
+    }
+    
+    .titulo_impacto_saibamais {
+        position: absolute;
+        margin-inline: 28rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        padding-top: 36.5rem;
+    }
+    
+    .titulo_impacto_saibamais h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+    }
+    
+    .titulo_impacto_saibamais strong {
+        color: var(--green);
+    }
+    
+    .texto_impacto_saibamais_1 {
+        text-align: center;
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 48rem;
+    }
+    
+    .texto_impacto_saibamais_2 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+    }
+    
+    .texto_impacto_saibamais_3 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+    }
+    
+    .texto_impacto_saibamais_4 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+    }
+    
+    .folha_tipos_saibamais {
+        position: absolute;
+        width: 240.16px;
+        height: 240.16px;
+        left: 32.25rem;
+        top: 242.3875rem; 
+    }
+    
+    .titulo_tipos_saibamais {
+        position: absolute;
+        text-align: center;
+        margin-inline: 30rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        padding-top: 6.5rem;
+    }
+    
+    .titulo_tipos_saibamais h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+        padding-left: 4rem;
+    }
+    
+    .titulo_tipos_saibamais strong {
+        color: var(--green);
+    }
+    
+    .texto_tipos_saibamais_1 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 18rem;
+    }
+    
+    .texto_tipos_saibamais_2 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 32   rem;
+    }
+    
+    .texto_tipos_saibamais_3 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .folha_causas_saibamais {
+        position: absolute;
+        width: 240.16px;
+        height: 240.16px;
+        left: 32.55rem;
+        top: 309.7875rem; 
+    }
+    
+    .titulo_causas_saibamais {
+        position: absolute;
+        text-align: center;
+        margin-left: 25rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        padding-top: 6.5rem;
+    }
+    
+    .titulo_causas_saibamais h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+    }
+    
+    .titulo_causas_saibamais strong {
+        color: var(--green);
+    }
+    
+    .texto_causas_saibamais_1 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 18rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_causas_saibamais_2 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_causas_saibamais_3 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_causas_saibamais_4 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_causas_saibamais_5 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .folha_combate_saibamais {
+        position: absolute;
+        width: 240.16px;
+        height: 240.16px;
+        left: 32.55rem;
+        top: 393.7875rem; 
+    }
+    
+    .titulo_combate_saibamais {
+        position: absolute;
+        text-align: center;
+        margin-left: 26rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        padding-top: 6.5rem;
+    }
+    
+    .titulo_combate_saibamais h1 {
+        font-weight: 300;
+        font-size: 3.125rem;
+        margin-left: 10rem;
+    }
+    
+    .titulo_combate_saibamais strong {
+        color: var(--green);
+    }
+    
+    .texto_combate_saibamais_1 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 18rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_combate_saibamais_2 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_combate_saibamais_3 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_combate_saibamais_4 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .texto_combate_saibamais_5 {
+        text-align: center;
+        font-size: 1.925rem;
+        line-height: 1.9875rem;
+        font-weight: 400;
+        font-family: 'TTCommons Regular';
+        padding-top: 3rem;
+        margin-inline: 22rem;
+    }
+    
+    .videoaula h1 {
+        text-align: center;
+        font-size: 1.575rem;
+        font-family: 'TTCommons Regular', sans-serif;
+        color: var(--green);
+        padding-top: 8rem;
+    }
+    
+    .videoaula button {
+        position: absolute;
+        border-radius: 5rem;
+        padding-block: 1rem;
+        padding-inline: 2.2rem;
+        margin-inline: 38rem;
+        margin-top: 4rem;
+        border: none;
+        font-family: 'Raleway',sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+    
+    }
+    
+    .imagem {
+        width: 100%;
+        height: 33rem;
+    }
+    
+    .seta_cima {
+        position: fixed;
+        margin-left: 1.6rem;
+        margin-top: 36rem;
+        background-color: var(--light-green);
+        border-radius: 3rem;
+        padding-inline: 0.8rem;
+        padding-block: 0.5rem;
+    }
+    
+    .seta_cima img {
+        padding-top: 0.3rem;
+    }
+}

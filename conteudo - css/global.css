@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+@font-face {
+    font-family: 'TTCommons Regular';
+    src: url(../TT\ Commons\ Regular.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTCommons ExtraLight';
+    src: url(../TT\ Commons\ ExtraLight.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    background-color: var(--black);
+    height: 8vh;
+}
+
+body {
+    background-color: var(--very_light_gray);
+}
+
+button {
+    background-color: var(--green);
+}       

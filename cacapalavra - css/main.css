@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'TTCommons Regular';
+    src: url(../TT\ Commons\ Regular.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTCommons ExtraLight';
+    src: url(../TT\ Commons\ ExtraLight.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo {
+    position: absolute;
+    width: 29.25rem;
+    height: 7.5rem;
+    margin-right: 87rem;
+    margin-top: 3.5rem;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin-left: 74rem;
+}
+
+.navbar li {
+    margin-left: 3rem;
+}
+
+.videoaula_bt {
+    font-size: 1rem;
+    padding-inline: 0.7rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.jogo_bt {
+    font-size: 1rem;
+    padding-inline: 2.2rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.contato_bt {
+    font-size: 1rem;
+    padding-inline: 1.3rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.sobre_bt {
+    font-size: 1rem;
+    padding-inline: 1.9rem;
+    padding-block: 0.3rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.185rem;
+    border-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.titulo_jogo h1 {
+    text-align: center;
+    font-size: 6.25rem;
+    color: var(--blue);
+    padding-top: 2rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.dificuldade_jogo h1 {
+    text-align: center;
+    padding-top: 3.6rem;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.275rem;
+}
+
+.dificuldade_jogo > div {
+    display: flex;
+    justify-content: center;
+}
+
+.dificuldade_jogo-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.dificuldade_jogo-botoes button {
+    font-size: 1.20625rem;
+    padding-block: 1.3rem;
+    padding-inline: 4.2rem;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: var(--blue);
+}
+
+.instrucao_jogo p {
+    text-align: center;
+    font-size: 1.925rem;
+    font-family: 'TTCommons ExtraLight', sans-serif;
+}
